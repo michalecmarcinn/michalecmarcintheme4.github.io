@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+
+body {
+    color: #787878;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #434343;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 40px;
+}
+
+p {
+    color: #787878;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+section.module p:last-child {
+    margin-bottom: 0;
+}
+
+section.module.content {
+    padding: 40px 0;
+}
+
+section.module.contentlogo {
+    padding: 40px 0;
+}
+
+section.module.parallax {
+    height: 600px;
+    background: center no-repeat fixed;
+    background-size: 100% auto;
+}
+
+section.module.parallax h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 48px;
+    line-height: 600px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-1 {
+    background-image: url("../img/philosophy.png");
+}
+
+section.module.parallax-2 {
+    background-image: url("../img/fun.png");
+}
+
+section.module.parallax-3 {
+    background-image: url("../img/access.png");
+}
+
+section.module.parallax-4 {
+    background-image: url("../img/volunteer.png");
+}
+
+/* ============================================================
+  BOX SIZING & CLEARFIX
+============================================================ */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ============================================================
+  HTML & BODY
+============================================================ */
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.containerimage {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* ============================================================
+  HEADER & SITE TITLE
+============================================================ */
+/* header */
+
+/* site title */
+.site-title {
+    padding: 5px 0;
+    background-color: #818181;
+    text-align: center;
+}
+
+.site-title h1 {
+    color: #fff;
+}
+
+/* ============================================================
+  FOOTER
+============================================================ */
+footer {
+    background-color: #434343;
+
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+}
+
+ul {
+    color: white;
+    display: block;
+    width: 960px;
+    max-width: 480px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+
+}
+
+li {
+    display: inline-block;
+    color: #818181;
+}
+
+/* ============================================================
+  TEXT LEVEL SEMANTICS
+============================================================ */
+a {
+    text-decoration: none;
+    color: #818181;
+}
+
+a:hover {
+    color: white;
+}
+
+section.module p {
+    font-size: 20px;
+}
+
+section.module.parallax h1 {
+    font-size: 96px;
+}
+
+@media all and (min-width: 960px) {
+    section.module.parallax h1 {
+        font-size: 160px;
+    }
+}
+
+.centerbox {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 200px) {
+    section.module.parallax {
+        height: 150px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 471px) {
+    section.module.parallax {
+        height: 200px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width:768px){
+    section.module.parallax {
+        height: 450px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+}
+
+@media(min-width:992px){
+    section.module.parallax {
+        height: 600px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    section.module.parallax {
+        height: 600px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1680px) {
+    section.module.parallax {
+        height: 600px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
